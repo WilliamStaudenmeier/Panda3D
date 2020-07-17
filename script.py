@@ -128,7 +128,7 @@ class RoamingPenguinDemo(ShowBase):
 
 
         self.arena.reparentTo(render)
-        self.arena.setScale(.01)
+        self.arena.setScale(.1)
         self.arena.setPos(arenaStartPos + (-1, 0, 0))
 
 
@@ -137,7 +137,7 @@ class RoamingPenguinDemo(ShowBase):
 
 
         self.arena2.reparentTo(render)
-        self.arena2.setScale(.2)
+        self.arena2.setScale(.9)
         self.arena.setPos(arenaStartPos + (px, py-12, 1))
         self.arena2.setPos(arenaStartPos + (8, 5, -1))
 
@@ -153,16 +153,16 @@ class RoamingPenguinDemo(ShowBase):
 
         self.arena4 = Actor("models/FarmHouse")
         self.arena4.reparentTo(render)
-        self.arena4.setScale(.01)
+        self.arena4.setScale(.1)
 
         self.arena4.setPos(arenaStartPos + (px/3-random.randint(18,22), py/3, -1))
 
 
         self.arena5 = Actor("models/gate")
         self.arena5.reparentTo(render)
-        self.arena5.setScale(.005)
+        self.arena5.setScale(.008)
 
-        self.arena5.setPos(arenaStartPos + (px/1.2-7, py/1.2, -1))
+        self.arena5.setPos(arenaStartPos + (px/1.2-9, py/1.2, -1))
 
         #####################################################################################################################################
         base.enableParticles()
