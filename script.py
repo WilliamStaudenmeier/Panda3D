@@ -137,7 +137,7 @@ class RoamingPenguinDemo(ShowBase):
 
 
         self.arena2.reparentTo(render)
-        self.arena2.setScale(.9)
+        self.arena2.setScale(5.9)
         self.arena.setPos(arenaStartPos + (px, py-12, 1))
         self.arena2.setPos(arenaStartPos + (8, 5, -1))
 
